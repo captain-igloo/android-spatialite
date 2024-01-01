@@ -1,23 +1,4 @@
-apply plugin: 'java'
-
-buildscript {
-    repositories {
-        google()
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.0-alpha06'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
-    }
+plugins {
+    id "com.android.library" version "8.1.1" apply false
+    id "de.undercouch.download" version "5.4.0" apply false
 }
-
-allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
-}
-
-/*task clean(type: Delete) {
-    delete rootProject.buildDir
-}*/

@@ -1,6 +1,0 @@
-/build
-/src/main/jniLibs
-/src/main/jni/ndk-modules/sqlite/sqlite3.h
-/src/main/jni/ndk-modules/sqlite/sqlite3.c
-/src/main/jni/ndk-modules/sqlite/sqlite.zip
-/src/main/obj
