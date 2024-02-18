@@ -9,7 +9,24 @@ The [Spatialite](https://www.gaia-gis.it/gaia-sins/) database ported for *Androi
 
 ## Getting Started
 
-If you know basic *SQLite*, there's almost nothing to learn. The API is 99% the same as the Android *SQLite* API (as of API level 15). The main difference is the packaging. Use `io.requery.android.database.*` instead of `android.database.*`.
+If you know basic *SQLite*, there's almost nothing to learn. The API is 99% the same as the Android *SQLite* API (as of API level 15). The main difference is the packaging. Use `com.github.captainigloo.android.database.*` instead of `android.database.*`.
+
+### Gradle
+1) Have this in your project's `build.gradle`:
+
+```
+allprojects {
+  repositories {
+    ...
+    maven { url "https://jitpack.io" }
+  }
+}
+```
+
+2) Add the following to your module's `build.gradle`:
+```
+implementation 'com.github.captain-igloo:android-spatialite:<LATEST_VERSION>'
+```
 
 ## Other FAQ
 

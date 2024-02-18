@@ -223,7 +223,7 @@ static const JNINativeMethod sMethods[] =
 int register_android_database_SQLiteFunction(JNIEnv* env)
 {
     return jniRegisterNativeMethods(env,
-        "io/requery/android/database/sqlite/SQLiteFunction", sMethods, NELEM(sMethods));
+        "com/github/captainigloo/android/database/sqlite/SQLiteFunction", sMethods, NELEM(sMethods));
 }
 
 } // namespace android

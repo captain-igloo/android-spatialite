@@ -406,7 +406,7 @@ int register_android_database_CursorWindow(JNIEnv* env)
 
     gEmptyString = static_cast<jstring>(env->NewGlobalRef(env->NewStringUTF("")));
     return jniRegisterNativeMethods(env,
-    "io/requery/android/database/CursorWindow", sMethods, NELEM(sMethods));
+    "com/github/captainigloo/android/database/CursorWindow", sMethods, NELEM(sMethods));
 }
 
 } // namespace android
