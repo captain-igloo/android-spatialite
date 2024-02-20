@@ -12,7 +12,7 @@ android {
 
     compileSdk 34
 
-    namespace "com.github.captainigloo.sqlite"
+    namespace "com.github.captainigloo.android.database"
 
     defaultConfig {
         minSdkVersion 26
