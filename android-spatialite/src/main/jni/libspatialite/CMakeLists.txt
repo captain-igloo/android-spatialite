@@ -170,7 +170,7 @@ add_library(libspatialite STATIC
         src/virtualtext/virtualtext.c
         src/wfs/wfs_in.c)
 
-target_link_libraries(libspatialite proj sqlite3 geos_c iconv z)
+target_link_libraries(libspatialite proj rttopo sqlite3 geos_c iconv z)
 
 target_include_directories(libspatialite PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
 
